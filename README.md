@@ -35,7 +35,7 @@ This project is a **console-based** implementation of the classic board game **O
 
 ## 🕹️ Gameplay Instructions
 
-- On start, **choose your color** (`black`/`white` or shortcuts like `b`, `w`, `O`, `X`).
+- On start, **choose your color** (`black`/`white` or shortcuts like `b`, `B`, `w`, `W`, `o` , `O`, `x` , `X`).
 - Enter the **number of moves** the AI should look ahead (**1-9**).
 - Enter your moves in the format `c2` (**column letter + row number**).
 - The board and move history are displayed after each turn.
@@ -83,4 +83,5 @@ This project is a **console-based** implementation of the classic board game **O
 - Only **console interaction** is supported
 - **AI difficulty** is controlled by the lookahead depth
 - All code is **object-oriented** and modular for easy extension
+
 - Error handling for invalid inputs is included
